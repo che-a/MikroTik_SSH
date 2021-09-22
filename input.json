@@ -1,0 +1,17 @@
+{
+  "credentials": {
+    "login": "login",
+    "password": "password"
+  },
+  "defaults": {
+    "port": "22"
+  },
+  "devices": {
+    "192.168.88.1": {
+      "port": null,
+      "description": null,
+      "login": null,
+      "password": null
+    }
+  }
+}
