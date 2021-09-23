@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 
-"""
-
-"""
 import json
-from pprint import pprint
 import subprocess
 import sys
 
@@ -20,10 +16,7 @@ def load_input(input_file='input.json'):
 
 
 def exec_cmd(cmd, shell_script='ssh_cmd.sh', input_file='ssh_cmd.sh'):
-    """
-    """
     hosts = load_input()
-    pprint(hosts)
 
     # Запуск выполнения команды на каждом узле без ожидания её завершения.
     for ip in hosts['devices'].keys():
